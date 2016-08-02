@@ -246,9 +246,13 @@
     <Compile Include="Entitys\Dulce.cs" />
     <Compile Include="Entitys\Movimiento.cs" />
     <Compile Include="Entitys\Partida.cs" />
-    <Compile Include="Migrations\201608021752333_CreateTables.cs" />
-    <Compile Include="Migrations\201608021752333_CreateTables.Designer.cs">
-      <DependentUpon>201608021752333_CreateTables.cs</DependentUpon>
+    <Compile Include="Migrations\201608021853113_primera.cs" />
+    <Compile Include="Migrations\201608021853113_primera.Designer.cs">
+      <DependentUpon>201608021853113_primera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608021955358_segunda.cs" />
+    <Compile Include="Migrations\201608021955358_segunda.Designer.cs">
+      <DependentUpon>201608021955358_segunda.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -342,8 +346,11 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201608021752333_CreateTables.resx">
-      <DependentUpon>201608021752333_CreateTables.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201608021853113_primera.resx">
+      <DependentUpon>201608021853113_primera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608021955358_segunda.resx">
+      <DependentUpon>201608021955358_segunda.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

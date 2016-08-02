@@ -10,7 +10,7 @@
     <link href="Content/site.css" rel="stylesheet">
     <style>
         body {
-            background-color: #313738;
+            background-image: url(Content/Dulce/Dulceria.jpg);
         }
 
         #ele {
@@ -24,22 +24,27 @@
 
         .rojo {
             background-color: red;
+            background-image: url(Content/Dulce/rojo.png);
         }
 
         .azul {
             background-color: blue;
+            background-image: url(Content/Dulce/azul.png);
         }
 
         .amarillo {
             background-color: yellow;
+            background-image: url(Content/Dulce/amarillo.png);
         }
 
         .naranja {
             background-color: orange;
+            background-image: url(Content/Dulce/naranja.png);
         }
 
         .verde {
             background-color: green;
+            background-image: url(Content/Dulce/verde.png);
         }
 
         td {
@@ -147,38 +152,54 @@
         });
 
 
-        function Paint(data) {
+        //function Paint(data) {
+        //    $("#container").html("");
+        //    var table = "";
+        //    var color = "red";
+        //    table += "<table id='tableCandy'>";
+        //    for (var i = 0; i < data.dulces.length; i++) {
+        //        if (i == 0 || i == 9 || i == 18 || i == 27 || i == 36 || i == 45 || i == 54 || i == 63)
+        //            table += "<tr>";
+
+        //        if (data.dulces[i].color == 0)
+        //            color = "rojo";
+
+        //        if (data.dulces[i].color == 1)
+        //            color = "azul";
+
+        //        if (data.dulces[i].color == 2)
+        //            color = "amarillo";
+
+        //        if (data.dulces[i].color == 3)
+        //            color = "naranja";
+
+        //        if (data.dulces[i].color == 4)
+        //            color = "verde";
+
+        //        table += "<td id='" + data.dulces[i].id + "' numero='" + data.dulces[i].id + "' class='" + color + "'   ></td>";
+        //        if (i == 8 || i == 17 || i == 26 || i == 35 || i == 44 || i == 53 || i == 62 || i == 71)
+        //            table += "</tr>";
+        //    }
+        //    table += "</table>";
+        //    $("#container").html(table);
+        //}
+
+        function Paint2(data) {
             $("#container").html("");
             var table = "";
             var color = "red";
             table += "<table id='tableCandy'>";
-            for (var i = 0; i < data.elementos.length; i++) {
-                if (i == 0 || i == 9 || i == 18 || i == 27 || i == 36 || i == 45 || i == 54 || i == 63)
-                    table += "<tr>";
-
-                if (data.elementos[i].color == 0)
-                    color = "rojo";
-
-                if (data.elementos[i].color == 1)
-                    color = "azul";
-
-                if (data.elementos[i].color == 2)
-                    color = "amarillo";
-
-                if (data.elementos[i].color == 3)
-                    color = "naranja";
-
-                if (data.elementos[i].color == 4)
-                    color = "verde";
-
-                table += "<td id='" + data.elementos[i].id + "' numero='" + data.elementos[i].id + "' class='" + color + "'   ></td>";
-                if (i == 8 || i == 17 || i == 26 || i == 35 || i == 44 || i == 53 || i == 62 || i == 71)
-                    table += "</tr>";
+            for (i = 0; i <= 9; i++) {
+                document.write("<tr>")
+                document.write("<td>" + i + "</td>")
+                for (j = 0; j < data.dulces[i].length; j++) {
+                    document.write("<td>" + i + "</td>")
+                }
+                document.write("</tr>")
             }
             table += "</table>";
             $("#container").html(table);
         }
-
     </script>
 </body>
 </html>

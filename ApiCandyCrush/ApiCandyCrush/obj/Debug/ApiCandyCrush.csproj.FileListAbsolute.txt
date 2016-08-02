@@ -93,5 +93,6 @@ C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\bin\System
 C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Debug\ApiCandyCrush.csprojResolveAssemblyReference.cache
 C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Debug\ApiCandyCrush.dll
 C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Debug\ApiCandyCrush.pdb
-C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Debug\ApiCandyCrush.Migrations.CreateTables.resources
+C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Debug\ApiCandyCrush.Migrations.primera.resources
 C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Debug\ApiCandyCrush.csproj.GenerateResource.Cache
+C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Debug\ApiCandyCrush.Migrations.segunda.resources
