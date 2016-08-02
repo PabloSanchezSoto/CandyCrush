@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCandyCrush", "ApiCandyCrush\ApiCandyCrush.csproj", "{8E4ECD95-2AC0-4903-AC04-6FD4B3E8CBE9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candy", "Candy\Candy.csproj", "{1D042304-4ED7-43E2-973D-212DEBB5E464}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8E4ECD95-2AC0-4903-AC04-6FD4B3E8CBE9} = {8E4ECD95-2AC0-4903-AC04-6FD4B3E8CBE9}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

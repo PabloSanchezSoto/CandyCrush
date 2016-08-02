@@ -105,3 +105,6 @@ C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\bin\es\Mic
 C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\bin\es\System.Web.Http.Owin.resources.dll
+C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\bin\System.Web.Cors.dll
+C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\bin\System.Web.Http.Cors.dll
+C:\Users\Josepablo\Desktop\web\CandyCrush\ApiCandyCrush\ApiCandyCrush\bin\System.Web.Http.Cors.xml

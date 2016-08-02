@@ -11,6 +11,6 @@ namespace ApiCandyCrush.Entitys
         public string Usuario { get; set; }
         public int movimiento { get; set; }
         public int puntos { get; set; }
-        public IEnumerable<Dulce> dulces { get; set; }
+        public List<Dulce> dulces { get; set; }
     }
 }
