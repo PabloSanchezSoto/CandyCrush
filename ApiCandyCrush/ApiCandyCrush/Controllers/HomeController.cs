@@ -19,7 +19,7 @@ namespace ApiCandyCrush.Controllers
 
         public ActionResult Contact()
         {
-            return View();
+           return RedirectToAction("Contact");
 
         }
 
