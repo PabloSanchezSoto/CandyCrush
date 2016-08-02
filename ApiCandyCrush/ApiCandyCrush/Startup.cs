@@ -39,8 +39,8 @@ namespace ApiCandyCrush
                 //Here we create a Admin super user who will maintain the website                  
 
                 var user = new ApplicationUser();
-                user.UserName = "porrasgeorge";
-                user.Email = "porrasgeorge@gmail.com";
+                user.UserName = "jPablo";
+                user.Email = "josepablosanchezsoto@gmail.com";
 
                 string userPWD = "Asdf1234!";
 

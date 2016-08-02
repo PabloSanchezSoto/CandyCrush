@@ -17,6 +17,12 @@ namespace ApiCandyCrush.Controllers
             return View();
         }
 
+        public ActionResult Contact()
+        {
+            return View();
+
+        }
+
         public ActionResult sendMail(string name, string correo, string message)
         {
             NewEmail email = new NewEmail
