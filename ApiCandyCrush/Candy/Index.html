@@ -107,7 +107,7 @@
             var contToques = 0;
             var movimiento1 = -1;
             var movimiento2 = -1;
-            var apiURL = "http://localhost:7659/api/";
+            var apiURL = "http://localhost:64829/api/";
             var partida = -1;
 
             $.post(apiURL + "Partida", { id: '0' })
@@ -157,7 +157,7 @@
             var table = "";
             var color = "red";
             table += "<table id='tableCandy'>";
-            
+
             for (var i = 0; i < data.dulces.length; i++) {
                 if (i == 0 || i == 9 || i == 18 || i == 27 || i == 36 || i == 45 || i == 54 || i == 63)
                     table += "<tr>";
