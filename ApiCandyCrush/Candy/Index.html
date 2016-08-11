@@ -134,6 +134,55 @@
                 $("#contador").text(50 - contToques)
                 if (movimiento2 > -1) {
 
+                    var m2 = parseInt(movimiento2) + 1;
+                    var m3 = parseInt(movimiento2) - 1;
+                    var h = $('#' + m2).attr('class');
+                    var h1 = $('#' + m3).attr('class');
+                    if (h == $('#' + movimiento1).attr('class') && h1 == $('#' + movimiento1).attr('class')) {
+                        location.reload();
+                    }
+
+                    var h2 = parseInt(movimiento2) + 9;
+                    var h3 = parseInt(movimiento2) - 9;
+                    var h4 = $('#' + h2).attr('class');
+                    var h5 = $('#' + h3).attr('class');
+                    if (h4 == $('#' + movimiento1).attr('class') && h5 == $('#' + movimiento1).attr('class')) {
+                        location.reload();
+                    }
+
+                    var vup2 = parseInt(movimiento2) - 9;
+                    var vup3 = parseInt(movimiento2) - 18;
+                    var cl2 = $('#' + vup2).attr('class');
+                    var cl1 = $('#' + vup3).attr('class');
+                    if (cl2 == $('#' + movimiento1).attr('class') && cl1 == $('#' + movimiento1).attr('class')) {
+                        location.reload();
+                    }
+
+                    var vd2 = parseInt(movimiento2) + 9;
+                    var vd3 = parseInt(movimiento2) + 18;
+                    var cd2 = $('#' + vd2).attr('class');
+                    var cd1 = $('#' + vd3).attr('class');
+                    if (cd2 == $('#' + movimiento1).attr('class') && cd1 == $('#' + movimiento1).attr('class')) {
+                        location.reload();
+                    }
+                    //derecha +2
+                    var ext = parseInt(movimiento2) + 1;
+                    var ext1 = parseInt(movimiento2) + 2;
+                    var cdd1 = $('#' + ext).attr('class');
+                    var cdd2 = $('#' + ext1).attr('class');
+                    if (cdd1 == $('#' + movimiento1).attr('class') && cdd2 == $('#' + movimiento1).attr('class')) {
+                        location.reload();
+                    }
+
+                    //izquierda +2
+                    var iz2 = parseInt(movimiento2) - 1;
+                    var iz1 = parseInt(movimiento2) - 2;
+                    var csiz1 = $('#' + iz2).attr('class');
+                    var csiz2 = $('#' + iz1).attr('class');
+                    if (csiz1 == $('#' + movimiento1).attr('class') && csiz2 == $('#' + movimiento1).attr('class')) {
+                        location.reload();
+                    }
+
                     $.ajax({
                         url: apiURL + "Partida/" + partida,
                         type: 'PUT',
