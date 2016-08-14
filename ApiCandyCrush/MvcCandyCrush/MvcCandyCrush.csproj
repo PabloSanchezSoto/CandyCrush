@@ -210,12 +210,11 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Dulce\amarillo.png" />
-    <Content Include="Content\Dulce\azul.png" />
-    <Content Include="Content\Dulce\Dulceria.jpg" />
-    <Content Include="Content\Dulce\naranja.png" />
-    <Content Include="Content\Dulce\rojo.png" />
-    <Content Include="Content\Dulce\verde.png" />
+    <Content Include="Content\Dulce\amarillo.jpg" />
+    <Content Include="Content\Dulce\azul.jpg" />
+    <Content Include="Content\Dulce\naranja.jpg" />
+    <Content Include="Content\Dulce\rojo.jpg" />
+    <Content Include="Content\Dulce\verde.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
