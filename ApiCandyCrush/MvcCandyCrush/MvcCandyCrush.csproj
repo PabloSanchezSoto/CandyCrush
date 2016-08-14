@@ -215,6 +215,7 @@
     <Content Include="Content\Dulce\naranja.jpg" />
     <Content Include="Content\Dulce\rojo.jpg" />
     <Content Include="Content\Dulce\verde.jpg" />
+    <Content Include="Content\Dulce\Dulceria.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

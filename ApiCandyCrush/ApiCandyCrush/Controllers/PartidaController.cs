@@ -24,13 +24,13 @@ namespace ApiCandyCrush.Controllers
         {
             Array values = Enum.GetValues(typeof(Color));
             Random random = new Random();
-            var randomColor = Color.red;
-
+            var randomColor = Color.green;
+            
             listElementos = new List<Dulce>();
 
             for (int i = 0; i < 81; i++)
             {
-                randomColor = (Color)values.GetValue(random.Next(values.Length));
+                              randomColor = (Color)values.GetValue(random.Next(values.Length));
                 listElementos.Add(new Dulce { id = i, color = randomColor });
             }
 
@@ -61,5 +61,6 @@ namespace ApiCandyCrush.Controllers
             oPartida.dulces = listElementos.OrderBy(x => x.id).ToList();
             return Json(oPartida);
         }
+
     }
 }

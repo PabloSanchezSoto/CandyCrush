@@ -437,3 +437,4 @@ C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Debug\ApiC
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Debug\ApiCandyCrush.csproj.GenerateResource.Cache
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Debug\ApiCandyCrush.dll
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Debug\ApiCandyCrush.pdb
+C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Debug\ApiCandyCrush.csprojResolveAssemblyReference.cache
