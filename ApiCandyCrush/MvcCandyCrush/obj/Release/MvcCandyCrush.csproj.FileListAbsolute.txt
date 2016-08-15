@@ -96,6 +96,5 @@ C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\MvcCandyCrush\bin\es\Microso
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\MvcCandyCrush\bin\es\Microsoft.Owin.Security.Google.resources.dll
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\MvcCandyCrush\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\MvcCandyCrush\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\MvcCandyCrush\obj\Release\MvcCandyCrush.csprojResolveAssemblyReference.cache
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\MvcCandyCrush\obj\Release\MvcCandyCrush.dll
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\MvcCandyCrush\obj\Release\MvcCandyCrush.pdb

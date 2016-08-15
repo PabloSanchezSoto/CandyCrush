@@ -17,7 +17,9 @@ namespace ApiCandyCrush.Controllers
     {
         static Partida oPartida;
         static List<Dulce> listElementos;
- 
+        static List<Dulce> listElementos1;
+
+
         [EnableCors(origins: "*", headers: "*", methods: "*")]
         // POST api/Partida
         public async Task<IHttpActionResult> PostPartida([FromBody] ApplicationUser user )
@@ -47,20 +49,39 @@ namespace ApiCandyCrush.Controllers
         {
             //Logica de negocios
 
-            var move = listElementos.First(x => x.id == usuarioMovimientos.movimiento1);
-            listElementos.Remove(move);
-            move.id = usuarioMovimientos.movimiento2;
-
             var move2 = listElementos.First(x => x.id == usuarioMovimientos.movimiento2);
-            listElementos.Remove(move2);
-            move2.id = usuarioMovimientos.movimiento1;
+            var move = listElementos.First(x => x.id == usuarioMovimientos.movimiento1);
+            var next = listElementos.First(x => x.id == usuarioMovimientos.movimiento2 + 1);
+            var ant = listElementos.First(x => x.id == usuarioMovimientos.movimiento2 - 1);
+            if (move.color == next.color && move.color == ant.color)
+            {
+                listElementos.Remove(move);
+                move.id = usuarioMovimientos.movimiento2;
+                listElementos.Remove(move2);
+                move2.id = usuarioMovimientos.movimiento1;
+                listElementos.Add(move);
+                listElementos.Add(move2);
+                var idw = 0;
+                var uno = listElementos.First(x => x.id == ant.id - 9);
+                var dos = listElementos.First(x => x.id == move.id - 9);
+                var tres = listElementos.First(x => x.id == next.id - 9);
 
-            listElementos.Add(move);
-            listElementos.Add(move2);
 
+
+
+                listElementos1 = new List<Dulce>();
+
+                ant.color = uno.color;
+                move.color = dos.color;
+                next.color = tres.color;
+
+
+                oPartida.dulces = listElementos.OrderBy(x => x.id).ToList();
+                return Json(oPartida);  
+        }
             oPartida.dulces = listElementos.OrderBy(x => x.id).ToList();
             return Json(oPartida);
         }
-
+        
     }
 }

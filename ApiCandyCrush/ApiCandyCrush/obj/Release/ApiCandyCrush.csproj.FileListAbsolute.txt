@@ -102,7 +102,6 @@ C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\bin\es\Microso
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\bin\es\System.Web.Http.Owin.resources.dll
-C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Release\ApiCandyCrush.csprojResolveAssemblyReference.cache
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Release\ApiCandyCrush.Migrations.primera.resources
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Release\ApiCandyCrush.Migrations.segunda.resources
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Release\ApiCandyCrush.csproj.GenerateResource.Cache
