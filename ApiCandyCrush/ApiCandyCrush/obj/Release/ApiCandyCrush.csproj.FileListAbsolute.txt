@@ -107,3 +107,5 @@ C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Release\Ap
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Release\ApiCandyCrush.csproj.GenerateResource.Cache
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Release\ApiCandyCrush.dll
 C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Release\ApiCandyCrush.pdb
+C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Release\ApiCandyCrush.Migrations.login.resources
+C:\Users\Alexander\Desktop\CandyCrush\ApiCandyCrush\ApiCandyCrush\obj\Release\ApiCandyCrush.Migrations._1.resources

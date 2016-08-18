@@ -17,5 +17,9 @@ namespace ApiCandyCrush.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<ApiCandyCrush.Models.Login> Logins { get; set; }
+
+        public System.Data.Entity.DbSet<ApiCandyCrush.Models.Register> Registers { get; set; }
     }
 }

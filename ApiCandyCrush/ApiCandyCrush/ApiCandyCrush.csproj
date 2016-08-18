@@ -246,7 +246,10 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginsController.cs" />
+    <Compile Include="Controllers\MailController.cs" />
     <Compile Include="Controllers\PartidaController.cs" />
+    <Compile Include="Controllers\RegistersController.cs" />
     <Compile Include="Entitys\Dulce.cs" />
     <Compile Include="Entitys\Movimiento.cs" />
     <Compile Include="Entitys\Partida.cs" />
@@ -258,8 +261,18 @@
     <Compile Include="Migrations\201608021955358_segunda.Designer.cs">
       <DependentUpon>201608021955358_segunda.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608180150327_login.cs" />
+    <Compile Include="Migrations\201608180150327_login.Designer.cs">
+      <DependentUpon>201608180150327_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608180201115_1.cs" />
+    <Compile Include="Migrations\201608180201115_1.Designer.cs">
+      <DependentUpon>201608180201115_1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Login.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\NewEmail.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -267,6 +280,7 @@
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Register.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
@@ -336,9 +350,21 @@
     <Content Include="Views\Emails\New.cshtml" />
     <Content Include="Views\Emails\Correo.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Logins\Create.cshtml" />
+    <Content Include="Views\Logins\Delete.cshtml" />
+    <Content Include="Views\Logins\Details.cshtml" />
+    <Content Include="Views\Logins\Edit.cshtml" />
+    <Content Include="Views\Logins\Index.cshtml" />
+    <Content Include="Views\Registers\Create.cshtml" />
+    <Content Include="Views\Registers\Delete.cshtml" />
+    <Content Include="Views\Registers\Details.cshtml" />
+    <Content Include="Views\Registers\Edit.cshtml" />
+    <Content Include="Views\Registers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Mail\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -354,6 +380,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608021955358_segunda.resx">
       <DependentUpon>201608021955358_segunda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608180150327_login.resx">
+      <DependentUpon>201608180150327_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608180201115_1.resx">
+      <DependentUpon>201608180201115_1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<ApiCandyCrush.Models.Login>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Inicio</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+
+            <form action="demo_form.asp">
+                Usuario: <input type="text" name="Usuario"><br>
+                @*Last name: <input type="text" name="Contraseña"><br>*@
+            </form>
+                           
+        </th>
+        <th>
+            <form action="demo_form.asp">
+                @*First name: <input type="text" name="Usuario"><br>*@
+                Contraseña: <input type="text" name="Contraseña"><br>
+            </form>
+        </th>
+        <th></th>
+    </tr>
+ 
+
+</table>
+<div class="form-group" aling="right">
+    <div class="col-md-offset-2 col-md-10">
+        <input type="submit" value="Crear" class="btn btn-default" />
+    </div>
+</div>
